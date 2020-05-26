@@ -14,6 +14,7 @@ let myPeople = [
         age: 42
     }
 ];
+
 let newPeople = myPeople.map(person => ({ ...person }));
 
 //1. Make a postman call that uses the 5-day forecast from OWM (hint: use the documentation here - https://openweathermap.org/forecast5)
